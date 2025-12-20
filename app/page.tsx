@@ -18,7 +18,7 @@ export default function Home() {
           </div>
           <Button
             variant="secondary"
-            className="bg-white text-purple-700 hover:bg-gray-100"
+            className="bg-white text-purple-700 hover:bg-gray-100 cursor-pointer"
             aria-label="Try now for free"
           >
             Try Now →
@@ -112,16 +112,7 @@ export default function Home() {
           <p className="leading-relaxed">
             Most importantly, Blackbox AI fosters innovation. By removing routine burdens, it allows developers to
             concentrate on building new features and products. This makes it a valuable tool for anyone in the software
-            development ecosystem.{" "}
-            <a
-              href="https://boltai.dev"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-purple-600 hover:text-purple-800 underline font-medium"
-            >
-              Visit boltai.dev
-            </a>{" "}
-            to discover more innovative development tools.
+            development ecosystem.
           </p>
         </section>
 
@@ -172,16 +163,7 @@ export default function Home() {
             Large organizations benefit from Blackbox AI's scalability. Fortune 500 companies use it to manage complex
             projects across distributed teams. Autonomous agents can handle background tasks like testing, monitoring,
             and deployment, freeing developers to focus on innovation. Enterprises also appreciate the platform's
-            security and integration capabilities.{" "}
-            <a
-              href="https://boltai.dev"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-purple-600 hover:text-purple-800 underline font-medium"
-            >
-              Learn more at boltai.dev
-            </a>
-            .
+            security and integration capabilities.
           </p>
 
           <h3 id="education" className="text-2xl font-semibold mb-3 mt-6">
