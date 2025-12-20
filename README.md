@@ -1,30 +1,31 @@
-# Website cloning guide
+# Blackbox AI Guide
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+A comprehensive guide to Blackbox AI - the dual-purpose platform combining an AI-powered coding assistant with autonomous agents.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/sumitbasak100s-projects/v0-website-cloning-guide)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/dsZHaEDoagh)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/sumitbasak100s-projects/blackbox-ai-guide)
 
 ## Overview
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+This website provides detailed information about Blackbox AI, including features, benefits, use cases, tutorials, and more.
 
 ## Deployment
 
 Your project is live at:
 
-**[https://vercel.com/sumitbasak100s-projects/v0-website-cloning-guide](https://vercel.com/sumitbasak100s-projects/v0-website-cloning-guide)**
+**[https://vercel.com/sumitbasak100s-projects/blackbox-ai-guide](https://vercel.com/sumitbasak100s-projects/blackbox-ai-guide)**
 
-## Build your app
+## Features
 
-Continue building your app on:
+- Comprehensive guide to Blackbox AI
+- Detailed sections on features, benefits, and use cases
+- Tutorials and how-to guides
+- Pricing information
+- Case studies and FAQs
 
-**[https://v0.app/chat/dsZHaEDoagh](https://v0.app/chat/dsZHaEDoagh)**
+## Tech Stack
 
-## How It Works
-
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+- Next.js 16
+- React 19
+- TypeScript
+- Tailwind CSS 4
+- Vercel Analytics
