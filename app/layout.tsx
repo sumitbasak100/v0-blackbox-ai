@@ -27,8 +27,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Blackbox AI Guide" }],
   creator: "Blackbox AI",
   publisher: "Blackbox AI",
-  generator: "v0.app",
-  metadataBase: new URL("https://blackboxai.com"),
+  metadataBase: new URL("https://blackbox.ink"),
   alternates: {
     canonical: "/",
   },
@@ -36,7 +35,7 @@ export const metadata: Metadata = {
     title: "Blackbox AI: The Complete Guide - AI Coding Assistant & Autonomous Agents",
     description:
       "Blackbox AI is a dual-purpose platform combining an AI-powered coding assistant with autonomous agents. Trusted by 30 million+ developers worldwide for faster, smarter development.",
-    url: "https://blackboxai.com",
+    url: "https://blackbox.ink",
     siteName: "Blackbox AI",
     locale: "en_US",
     type: "website",
