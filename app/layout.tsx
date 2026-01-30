@@ -2,15 +2,16 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
+import Script from "next/script"
 import "./globals.css"
 
-const _geist = Geist({ subsets: ["latin"] })
-const _geistMono = Geist_Mono({ subsets: ["latin"] })
+const geist = Geist({ subsets: ["latin"], variable: "--font-geist" })
+const geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono" })
 
 export const metadata: Metadata = {
   title: "Blackbox AI Free: Blackbox AI - The Complete Guide - AI Coding Assistant",
   description:
-    "Blackbox AI is a free dual-purpose platform combining an AI-powered coding assistant with autonomous agents. Trusted by 30 million+ developers worldwide. Learn about features, benefits, use cases, and the future of AI-driven development.",
+    "Blackbox AI is a free dual-purpose platform combining an AI-powered coding assistant with autonomous agents. Trusted by 30 million+ developers worldwide.",
   keywords: [
     "Blackbox AI",
     "Blackbox AI Free",
@@ -29,13 +30,11 @@ export const metadata: Metadata = {
   creator: "Blackbox AI",
   publisher: "Blackbox AI",
   metadataBase: new URL("https://blackbox.ink"),
-  alternates: {
-    canonical: "/",
-  },
+  alternates: { canonical: "/" },
   openGraph: {
-    title: "Blackbox AI Free: The Complete Guide - AI Coding Assistant & Autonomous Agents",
+    title: "Blackbox AI Free: The Complete Guide",
     description:
-      "Blackbox AI is a free dual-purpose platform combining an AI-powered coding assistant with autonomous agents. Trusted by 30 million+ developers worldwide for faster, smarter development.",
+      "Blackbox AI is a free dual-purpose platform combining an AI-powered coding assistant with autonomous agents.",
     url: "https://blackbox.ink",
     siteName: "Blackbox AI",
     locale: "en_US",
@@ -51,9 +50,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Blackbox AI Free: The Complete Guide - AI Coding Assistant & Autonomous Agents",
+    title: "Blackbox AI Free: The Complete Guide",
     description:
-      "Trusted by 30 million+ developers. Learn about Blackbox AI's features, benefits, and the future of AI-driven development.",
+      "Trusted by 30 million+ developers. Learn about Blackbox AI's features.",
     images: ["/images/image.png"],
   },
   robots: {
@@ -75,24 +74,29 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode
-}>) {
+}) {
   return (
-    <html lang="en">
-      <body className={`font-sans antialiased`}>
+    <html lang="en" className={`${geist.variable} ${geistMono.variable}`}>
+      <body className="font-sans antialiased">
         {children}
         <Analytics />
+
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-8NZNWPD64D"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-8NZNWPD64D');
+          `}
+        </Script>
       </body>
-      <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-8NZNWPD64D"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-      
-        gtag('config', 'G-8NZNWPD64D');
-      </script>
     </html>
   )
 }
