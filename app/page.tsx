@@ -28,7 +28,7 @@ export default function Home() {
 
       <article className="max-w-4xl mx-auto px-6 py-16 space-y-16">
         <header>
-          <h1 className="text-5xl font-bold mb-4">Blackbox AI: The Complete Guide (500 Words per Chapter)</h1>
+          <h1 className="text-5xl font-bold mb-4">Blackbox AI: The Complete Guide</h1>
         </header>
 
         {/* What is Blackbox AI */}
@@ -198,7 +198,7 @@ export default function Home() {
         {/* Tutorials */}
         <section aria-labelledby="tutorials">
           <h2 id="tutorials" className="text-3xl font-bold mb-4">
-            Tutorials and How To Guides
+            Blackbox AI Tutorials and How To Guides
           </h2>
           <p className="leading-relaxed mb-4">
             Getting started with <strong>Blackbox AI</strong> is straightforward, but mastering its features requires
@@ -253,7 +253,7 @@ export default function Home() {
         {/* Pricing */}
         <section aria-labelledby="pricing">
           <h2 id="pricing" className="text-3xl font-bold mb-4">
-            Pricing and Plans
+            Blackbox AI Pricing and Plans
           </h2>
           <p className="leading-relaxed mb-4">
             Pricing is a critical factor when adopting new tools. <strong>Blackbox AI</strong> offers flexible plans to
@@ -299,7 +299,7 @@ export default function Home() {
         {/* Integrations */}
         <section aria-labelledby="integrations">
           <h2 id="integrations" className="text-3xl font-bold mb-4">
-            Integrations
+            Blackbox AI Integrations
           </h2>
           <p className="leading-relaxed mb-4">
             Integrations are essential for modern development workflows. <strong>Blackbox AI</strong> connects with
@@ -440,7 +440,7 @@ export default function Home() {
         {/* FAQs */}
         <section aria-labelledby="faqs">
           <h2 id="faqs" className="text-3xl font-bold mb-4">
-            FAQs
+            Blackbox AI FAQs
           </h2>
           <p className="leading-relaxed mb-6">
             Frequently asked questions about <strong>Blackbox AI</strong> help clarify its functionality and benefits.
@@ -490,7 +490,7 @@ export default function Home() {
         {/* Case Studies */}
         <section aria-labelledby="case-studies">
           <h2 id="case-studies" className="text-3xl font-bold mb-4">
-            Case Studies
+            Blackbox AI Case Studies
           </h2>
           <p className="leading-relaxed mb-4">
             Case studies demonstrate the real world impact of <strong>Blackbox AI</strong>.
