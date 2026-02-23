@@ -17,9 +17,6 @@ export function SiteFooter() {
           <Link href="/terms" className="text-gray-600 hover:text-gray-900 transition-colors">
             Terms of Service
           </Link>
-          <Link href="http://questionai.io/" className="text-gray-600 hover:text-gray-900 transition-colors">
-            QuestionAI.io
-          </Link>
         </div>
         <p className="text-center text-gray-600 text-sm">
           © 2025 Blackbox AI Guide. Part of{" "}
