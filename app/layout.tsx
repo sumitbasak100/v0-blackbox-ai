@@ -9,7 +9,7 @@ const geist = Geist({ subsets: ["latin"], variable: "--font-geist" })
 const geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono" })
 
 export const metadata: Metadata = {
-  title: "Blackbox AI Free: Blackbox AI Free - The Complete Guide - AI Coding Assistant",
+  title: "Blackbox AI: Blackbox AI Free - The Complete Guide",
   description:
     "Blackbox AI is a free dual-purpose platform combining an AI-powered coding assistant with autonomous agents. Trusted by 30 million+ developers worldwide.",
   keywords: [
@@ -82,6 +82,15 @@ export default function RootLayout({
       <body className="font-sans antialiased">
         {children}
         <Analytics />
+
+        <Script id="website-schema" type="application/ld+json" strategy="beforeInteractive">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Blackbox AI",
+            "url": "https://blackbox.ink"
+          })}
+        </Script>
 
         {/* Google Analytics */}
         <Script
