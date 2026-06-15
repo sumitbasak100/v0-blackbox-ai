@@ -76,8 +76,14 @@ export default function PrivacyPage() {
             <h2 className="text-2xl font-semibold mb-4">Contact</h2>
             <p>
               For privacy-related questions, please visit our{" "}
-              <a href="/contact" className="text-purple-600 hover:text-purple-800 underline font-medium">
+              <a href="https://bedtime-stories.co" className="text-purple-600 hover:text-purple-800 underline font-medium">
                 contact page
+              </a>
+              .
+
+              Try out{" "}
+              <a href="/contact" className="text-purple-600 hover:text-purple-800 underline font-medium">
+                Bedtime-Stories.co
               </a>
               .
             </p>
